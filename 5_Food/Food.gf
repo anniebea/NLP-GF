@@ -1,29 +1,32 @@
-
 abstract Food = {
 
-    flags startcat = Statement ;
+flags coding = utf8 ;
 
-    cat
-        Statement ;		-- S
-        Item ;			-- NP
-        Kind ;			-- CN
-        Nationality ;	-- A
-        Quality ;       -- AP
-        Degree ;        -- AdA
-        FoodItem ;      -- N
-        QualityItem ;   -- A
+flags startcat = Statement;
 
-    fun
-        Cheese, Fish, Pizza, Wine : FoodItem ;
-        Dutch, French, Italian : Nationality ;
-        Delicious, Expensive, Fresh : QualityItem ;
-        Quite, Too, Very : Degree ;
+cat
+   Statement; Item; Kind; Nationality; Quality; Degree; FoodItem;
 
-        This, That, These, Those : Kind -> Item ;
+fun
+    Cheese : FoodItem;
+    Fish : FoodItem;
+    Pizza : FoodItem;
+    Wine : FoodItem;
+    Dutch : Nationality;
+    French : Nationality;
+    Italian : Nationality;
+    Delicious : Quality;
+    Expensive : Quality;
+    Fresh : Quality;
+    Quite : Degree;
+    Too : Degree;
+    Very : Degree;
+    That : Kind -> Item;
+    These : Kind -> Item;
+    This : Kind -> Item;
+    Those : Kind -> Item;
+    Opinion : Item -> Quality -> Statement;
+    NationalFood : Nationality -> FoodItem -> Kind;
+    ModifiedQuality : Degree -> Quality -> Quality;
 
-        Opinion : Item -> Quality -> Statement ;
-        NationalFood : Nationality -> FoodItem -> Kind ;
-        ModifiedQuality : Degree -> QualityItem -> Quality ;
 }
-
--- TODO: ielādēt http://cloud.grammaticalframework.org/gfse/ un izmēģināt Minibar saskarni
