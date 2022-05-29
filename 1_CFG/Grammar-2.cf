@@ -1,0 +1,69 @@
+S_1.  S ::= NP_Nom VAccP ;
+S_2.  S ::= NP_Dat VNomP ;
+S_3.  S ::= NP_Dat VGenP ;
+
+VAccP_1.  VAccP ::= VAcc NP_Acc ;
+VNomP_1.  VNomP ::= VNom NP_Nom ;
+VGenP_1.  VGenP ::= VGen NP_Gen ;
+
+NP_Nom_1.  NP_Nom ::= N_Nom ;
+NP_Nom_2.  NP_Nom ::= NP_Gen N_Nom ;
+
+NP_Gen_1.  NP_Gen ::= N_Gen ;
+NP_Gen_2.  NP_Gen ::= NP_Gen N_Gen ;
+
+NP_Dat_1.  NP_Dat ::= N_Dat ;
+NP_Dat_2.  NP_Dat ::= NP_Gen N_Dat ;
+
+NP_Acc_1.  NP_Acc ::= N_Acc ;
+NP_Acc_2.  NP_Acc ::= NP_Gen N_Acc ;
+
+N_Nom_1.  N_Nom ::= N_Sg_Nom ;
+N_Nom_2.  N_Nom ::= N_Pl_Nom ;
+
+N_Gen_1.  N_Gen ::= N_Sg_Gen ;
+N_Gen_2.  N_Gen ::= N_Pl_Gen ;
+
+N_Dat_1.  N_Dat ::= N_Sg_Dat ;
+N_Dat_2.  N_Dat ::= N_Pl_Dat ;
+
+N_Acc_1.  N_Acc ::= N_Sg_Acc ;
+N_Acc_2.  N_Acc ::= N_Pl_Acc ;
+
+VNom_1. VNom ::= like_V ;
+VGen_1. VGen ::= lack_V ;
+VAcc_1. VAcc ::= read_V ;
+
+read_V.  VAcc ::= "lasa" ;
+like_V.  VNom ::= "patīk" ;
+lack_V.  VGen ::= "pietrūkst" ;
+
+boy_N_Sg_Nom.  N_Sg_Nom ::= "zēns" ;
+boy_N_Sg_Gen.  N_Sg_Gen ::= "zēna" ;
+boy_N_Sg_Dat.  N_Sg_Dat ::= "zēnam" ;
+boy_N_Sg_Acc.  N_Sg_Acc ::= "zēnu" ;
+boy_N_Pl_Nom.  N_Pl_Nom ::= "zēni" ;
+boy_N_Pl_Gen.  N_Pl_Gen ::= "zēnu" ;
+boy_N_Pl_Dat.  N_Pl_Dat ::= "zēniem" ;
+boy_N_Pl_Acc.  N_Pl_Acc ::= "zēnus" ;
+
+book_N_Sg_Nom.  N_Sg_Nom ::= "grāmata" ;
+book_N_Sg_Gen.  N_Sg_Gen ::= "grāmatas" ;
+book_N_Sg_Dat.  N_Sg_Dat ::= "grāmatai" ;
+book_N_Sg_Acc.  N_Sg_Acc ::= "grāmatu" ;
+book_N_Pl_Nom.  N_Pl_Nom ::= "grāmatas" ;
+book_N_Pl_Gen.  N_Pl_Gen ::= "grāmatu" ;
+book_N_Pl_Dat.  N_Pl_Dat ::= "grāmatām" ;
+book_N_Pl_Acc.  N_Pl_Acc ::= "grāmatas" ;
+
+text_N_Sg_Nom.  N_Sg_Nom ::= "mācība" ;
+text_N_Sg_Gen.  N_Sg_Gen ::= "mācības" ;
+text_N_Sg_Dat.  N_Sg_Dat ::= "mācībai" ;
+text_N_Sg_Acc.  N_Sg_Acc ::= "mācību" ;
+text_N_Pl_Nom.  N_Pl_Nom ::= "mācības" ;
+text_N_Pl_Gen.  N_Pl_Gen ::= "mācību" ;
+text_N_Pl_Dat.  N_Pl_Dat ::= "mācībām" ;
+text_N_Pl_Acc.  N_Pl_Acc ::= "mācības" ;
+
+-- parse "grāmatu zēni lasa mācību grāmatas"
+-- generate_random | linearize -treebank

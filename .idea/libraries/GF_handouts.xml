@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="GF-handouts">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/GF-handouts.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
