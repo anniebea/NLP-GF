@@ -23,9 +23,7 @@ TODO:  this expensive French wine is _very very_ delicious
 
 ~~TODO:  _I want_ <Item>~~
 
-unofficial FIXME: Fix FoodLav.gf
-
-### 2.3. 
+### 2.3. - Fully complete, added Spanish
 Add one more language to the 'Food' grammar valoda (see supported RGL languages).
 
 ### 2.4. 

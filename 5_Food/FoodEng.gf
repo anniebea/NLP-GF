@@ -22,8 +22,11 @@ lin
 
     NationalFood nationality kind = mkCN nationality kind;
     DescribedFood quality kind = mkCN quality kind;
+    PlainFood FoodItem = mkCN FoodItem;
 
     ModifiedQuality degree quality = mkAP degree quality;
+    PlainQuality Adjective = mkAP Adjective;
+
     DescribedNationalFood quality nationality kind = mkCN quality (mkCN nationality kind);
 
     This kind   = mkNP this_Det kind;
@@ -32,7 +35,7 @@ lin
     Those kind  = mkNP those_Det kind;
 
     Cheese  = mkN "cheese";
-    Fish    = mkN "fish" "fish";
+    Fish    = mkN "fish";
     Pizza   = mkN "pizza";
     Wine    = mkN "wine";
 

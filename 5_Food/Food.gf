@@ -17,13 +17,15 @@ cat
     Adjective ;     -- A
 
 fun
-    PersWant : Person -> VerbTwo -> Item -> Statement;
-    Opinion : Item -> Quality -> Statement;
+    PersWant    : Person -> VerbTwo -> Item -> Statement;
+    Opinion     : Item -> Quality -> Statement;
 
-    NationalFood : Nationality -> FoodItem -> Kind;
-    DescribedFood : Quality -> FoodItem -> Kind;
+    NationalFood    : Nationality -> FoodItem -> Kind;
+    DescribedFood   : Quality -> FoodItem -> Kind;
+    PlainFood       : FoodItem -> Kind;
 
     ModifiedQuality : Degree -> Adjective -> Quality;
+    PlainQuality    : Adjective -> Quality;
 
     DescribedNationalFood : Quality -> Nationality -> FoodItem -> Kind;
 

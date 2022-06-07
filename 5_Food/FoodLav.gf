@@ -14,15 +14,16 @@ concrete FoodLav of Food = open SyntaxLav, ParadigmsLav in {
         FoodItem = N;
         VerbTwo = V2;
         Person = Pron;
+        Adjective = A;
 
     lin
         PersWant person verbTwo item = mkS (mkCl (mkNP person) verbTwo item);
         Opinion item quality = mkS (mkCl item quality) ;
 
         NationalFood nationality kind = mkCN nationality kind ;
-        ModifiedQuality degree quality = mkAP degree quality ;
-
         DescribedFood quality kind = mkCN quality kind;
+
+        ModifiedQuality degree quality = mkAP degree quality ;
         DescribedNationalFood quality nationality kind = mkCN quality (mkCN nationality kind);
 
         This  kind = mkNP this_Det kind ;
@@ -39,9 +40,9 @@ concrete FoodLav of Food = open SyntaxLav, ParadigmsLav in {
         French  = mkA "franču" ;
         Italian = mkA "itāliešu" ;
 
-        Delicious = mkAP (mkA "gards") ;
-        Expensive = mkAP (mkA "dārgs") ;
-        Fresh     = mkAP (mkA "svaigs") ;
+        Delicious = mkA "gards" ;
+        Expensive = mkA "dārgs" ;
+        Fresh     = mkA "svaigs" ;
 
         Quite = mkAdA "diezgan" ;
         Too   = too_AdA ;
