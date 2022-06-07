@@ -27,6 +27,21 @@ incomplete concrete FoodI of Food = open Syntax, LexFood in {
         That kind   = mkNP that_Det kind;
         These kind  = mkNP these_Det kind;
         Those kind  = mkNP those_Det kind;
+
+        Cheese  = cheese_N;
+        Fish    = fish_N;
+        Pizza   = pizza_N;
+        Wine    = wine_N;
+
+        Dutch   = dutch_A;
+        French  = french_A;
+        Italian = italian_A;
+
+        Delicious   = delicious_A;
+        Expensive   = expensive_A;
+        Fresh       = fresh_A;
+
+        Quite   = quite_AdA;
         Too     = too_AdA;
         Very    = very_AdA;
 
