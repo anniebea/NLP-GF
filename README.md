@@ -26,5 +26,5 @@ TODO:  this expensive French wine is _very very_ delicious
 ### 2.3. - Fully complete, added Spanish support
 Add one more language to the 'Food' grammar valoda (see supported RGL languages).
 
-### 2.4. 
+### 2.4. - Matches what was done in 2.2
 Re-factor the 'Food' grammar by using a functor.
