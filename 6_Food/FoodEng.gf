@@ -1,3 +1,3 @@
 concrete FoodEng of Food = FoodI with
-    (Syntax = SyntacEng),
+    (Syntax = SyntaxEng),
     (LexFood = LexFoodEng) ;
