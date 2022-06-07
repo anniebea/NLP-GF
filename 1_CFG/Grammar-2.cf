@@ -36,7 +36,7 @@ VAcc_1. VAcc ::= read_V ;
 
 read_V.  VAcc ::= "lasa" ;
 like_V.  VNom ::= "patīk" ;
-lack_V.  VGen ::= "pietrūkst" ;
+lack_V.  VGen ::= "trūkst" ;
 
 boy_N_Sg_Nom.  N_Sg_Nom ::= "zēns" ;
 boy_N_Sg_Gen.  N_Sg_Gen ::= "zēna" ;
