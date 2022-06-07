@@ -7,7 +7,7 @@ V_Nom_Acc ::= "lasa"   ; -- <who-Nom>  'reads' <what-Acc>
 V_Dat_Nom ::= "patīk"  ; -- <whom-Dat> 'likes' <what-Nom>
 V_Dat_Gen ::= "trūkst" ; -- <whom-Dat> 'lacks' <what-Gen>
 
-### 2.2. 
+### 2.2. - 4/5 (5/6?) completed
 
 ###### Improve the GF 'Food' grammar (5_Food/*.gf) by using the high-level GF Resource Grammar Library (RGL):
 
