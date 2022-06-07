@@ -17,7 +17,7 @@ FIXME: this Italian pizza is ~~too~~ very delicious
 
 ~~TODO:  this _expensive_ wine is delicious~~
 
-TODO:  this _expensive French_ wine is very delicious
+~~TODO:  this _expensive French_ wine is very delicious~~
 
 TODO:  this expensive French wine is _very very_ delicious
 

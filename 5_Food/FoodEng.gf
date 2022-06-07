@@ -23,7 +23,7 @@ lin
     DescribedFood quality kind = mkCN quality kind;
 
     ModifiedQuality degree quality = mkAP degree quality;
-    -- QualityNationalFood quality nationality foodItem = mkCN quality NationalFood;
+    DescribedNationalFood quality nationality kind = mkCN quality (mkCN nationality kind);
 
     This kind   = mkNP this_Det kind;
     That kind   = mkNP that_Det kind;
