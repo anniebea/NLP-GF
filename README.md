@@ -23,7 +23,7 @@ TODO:  this expensive French wine is _very very_ delicious
 
 ~~TODO:  _I want_ <Item>~~
 
-### 2.3. - Fully complete, added Spanish
+### 2.3. - Fully complete, added Spanish support
 Add one more language to the 'Food' grammar valoda (see supported RGL languages).
 
 ### 2.4. 
