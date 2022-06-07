@@ -28,7 +28,7 @@ incomplete concrete FoodI of Food = open Syntax, LexFood in {
         Wine    = mkN wine_N;
 
         Dutch   = mkA dutch_A;
-        French  = mkA french_A
+        French  = mkA french_A;
         Italian = mkA italian_A;
 
         Delicious   = mkA delicious_A;
