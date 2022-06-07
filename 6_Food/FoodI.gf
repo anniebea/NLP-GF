@@ -3,7 +3,13 @@ incomplete concrete FoodI of Food = open Syntax, LexFood in {
         Statement = S;
         Item = NP;
         Kind = CN;
+        Nationality = A;
         Quality = AP;
+        Degree = AdA;
+        FoodItem = N;
+        VerbTwo = V2;
+        Person = Pron;
+        Adjective = A;
     lin
         Opinion item quality = mkS (mkCl item quality);
         PersWant person verbTwo item = mkS (mkCl (mkNP person) verbTwo item);
