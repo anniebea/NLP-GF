@@ -14,6 +14,7 @@ lincat
     FoodItem = N;
     VerbTwo = V2;
     Person = Pron;
+    Adjective = A;
 
 lin
     Opinion item quality = mkS (mkCl item quality);
@@ -39,9 +40,9 @@ lin
     French  = mkA "French";
     Italian = mkA "Italian";
 
-    Delicious   = mkAP (mkA "delicious");
-    Expensive   = mkAP (mkA "expensive");
-    Fresh       = mkAP (mkA "fresh");
+    Delicious   = mkA "delicious";
+    Expensive   = mkA "expensive";
+    Fresh       = mkA "fresh";
 
     Quite   = mkAdA "quite";
     Too     = too_AdA;

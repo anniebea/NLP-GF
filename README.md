@@ -13,7 +13,7 @@ V_Dat_Gen ::= "trūkst" ; -- <whom-Dat> 'lacks' <what-Gen>
 
 ~~FIXME: this ~~French~~ Italian pizza is too delicious~~
 
-FIXME: this Italian pizza is ~~too~~ very delicious
+~~FIXME: this Italian pizza is ~~too~~ very delicious~~
 
 ~~TODO:  this _expensive_ wine is delicious~~
 
@@ -22,6 +22,8 @@ FIXME: this Italian pizza is ~~too~~ very delicious
 TODO:  this expensive French wine is _very very_ delicious
 
 ~~TODO:  _I want_ <Item>~~
+
+unofficial FIXME: Fix FoodLav.gf
 
 ### 2.3. 
 Add one more language to the 'Food' grammar valoda (see supported RGL languages).
