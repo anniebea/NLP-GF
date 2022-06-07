@@ -1,4 +1,4 @@
-incomplete concrete FoodsI of Foods = open Syntax, LexFoods in {
+incomplete concrete FoodI of Food = open Syntax, LexFood in {
     lincat
         Statement = S;
         Item = NP;

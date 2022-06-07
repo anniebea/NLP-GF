@@ -1,4 +1,4 @@
-interface LexFoods = open Syntax in {
+interface LexFood = open Syntax in {
     oper
         cheese_N    : N;
         fish_N      : N;

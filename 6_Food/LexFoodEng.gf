@@ -1,4 +1,4 @@
-instance LexFoodsEng of LexFoods = open SyntacEng, ParadigmsEng in {
+instance LexFoodEng of LexFood = open SyntacEng, ParadigmsEng in {
     oper
         cheese_N    = mkN "cheese" ;
         fish_N      = mkN "fish" ;
